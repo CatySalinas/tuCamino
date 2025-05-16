@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a13300a9e14cacbb01ed5d6ae84e69, type: 3}
   m_Name: ARMeshFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Meshing'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-mesh
@@ -97,34 +97,34 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 7737371203600564508}
-  - {fileID: 3385332268262686557}
-  - {fileID: -1664447070580777399}
-  - {fileID: 9137141887819361642}
-  - {fileID: 8559452334619994343}
-  - {fileID: 4162536767286702605}
-  - {fileID: 8292158729526688386}
-  - {fileID: -8698832322240824786}
-  - {fileID: 7453773568698253871}
-  - {fileID: 3493553870260137809}
-  - {fileID: -8290184592752520216}
-  - {fileID: 3498500609913774610}
-  - {fileID: -5335547730442892139}
-  - {fileID: 4270614957702954934}
-  - {fileID: 6353386850693817236}
-  - {fileID: -5445094199370844378}
-  - {fileID: -6113088931295438216}
-  - {fileID: 8713928570868675072}
-  - {fileID: -520562710503491826}
-  - {fileID: 1627169980027888553}
-  - {fileID: 7805378566667524910}
-  - {fileID: 2051907728901247667}
   - {fileID: 6030231995153072923}
-  - {fileID: 5586658668571211955}
+  - {fileID: 8559452334619994343}
+  - {fileID: 8292158729526688386}
+  - {fileID: 4162536767286702605}
+  - {fileID: -6113088931295438216}
+  - {fileID: -8698832322240824786}
+  - {fileID: -8290184592752520216}
+  - {fileID: 3493553870260137809}
+  - {fileID: 9137141887819361642}
+  - {fileID: 4270614957702954934}
+  - {fileID: -5335547730442892139}
+  - {fileID: -520562710503491826}
   - {fileID: 9171560911698313225}
+  - {fileID: 4678011332093783881}
+  - {fileID: 1627169980027888553}
+  - {fileID: 8713928570868675072}
+  - {fileID: 2051907728901247667}
   - {fileID: 1369638315381341960}
   - {fileID: -1521139528118377659}
-  - {fileID: 4678011332093783881}
+  - {fileID: 5586658668571211955}
+  - {fileID: 7805378566667524910}
+  - {fileID: 7453773568698253871}
+  - {fileID: -1664447070580777399}
+  - {fileID: 3385332268262686557}
+  - {fileID: 3498500609913774610}
+  - {fileID: 6353386850693817236}
+  - {fileID: 7737371203600564508}
+  - {fileID: -5445094199370844378}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323d71788dcf5ca4b9cb3c4a90e38335, type: 3}
   m_Name: OpenXRLifeCycleFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 
   version: 0.1.0
   featureIdInternal: MetaOpenXR-OpenXRLifeCycle
@@ -373,36 +373,36 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 2143439045661650175}
-  - {fileID: -3854723513925127822}
-  - {fileID: 261054512772211114}
-  - {fileID: -2004948841329425232}
-  - {fileID: 7431431045640036034}
-  - {fileID: 3159170859939637032}
-  - {fileID: 3355513781283028690}
-  - {fileID: -1004436925015685644}
-  - {fileID: 6335409236125557563}
-  - {fileID: -7250672686379327876}
-  - {fileID: -2916665610569110933}
-  - {fileID: -4823202554605431959}
-  - {fileID: 7814731827884967159}
-  - {fileID: -878064553860847422}
-  - {fileID: 5566823548740271007}
-  - {fileID: -2382423624393385314}
-  - {fileID: -1828908665165339802}
-  - {fileID: 4026787893366902292}
-  - {fileID: 7480964623867674739}
-  - {fileID: 2914189625374582493}
-  - {fileID: 1032728141531523924}
-  - {fileID: 3009065557215615079}
-  - {fileID: 7965774940052610431}
-  - {fileID: -9098655547503764370}
   - {fileID: -7497172011549622408}
-  - {fileID: 4799660648599069726}
+  - {fileID: 261054512772211114}
+  - {fileID: 7431431045640036034}
+  - {fileID: -2004948841329425232}
+  - {fileID: 7480964623867674739}
+  - {fileID: 3159170859939637032}
+  - {fileID: -4823202554605431959}
+  - {fileID: 6335409236125557563}
+  - {fileID: 4026787893366902292}
+  - {fileID: -2916665610569110933}
+  - {fileID: 5566823548740271007}
+  - {fileID: -878064553860847422}
+  - {fileID: 1032728141531523924}
   - {fileID: 2504051214877925680}
+  - {fileID: -1177774330509388917}
+  - {fileID: 3009065557215615079}
+  - {fileID: 2914189625374582493}
+  - {fileID: -9098655547503764370}
   - {fileID: 5293286595030443113}
   - {fileID: 6463643601847559932}
-  - {fileID: -1177774330509388917}
+  - {fileID: 4799660648599069726}
+  - {fileID: 7965774940052610431}
+  - {fileID: 3355513781283028690}
+  - {fileID: -1004436925015685644}
+  - {fileID: -3854723513925127822}
+  - {fileID: 7814731827884967159}
+  - {fileID: -2382423624393385314}
+  - {fileID: 2143439045661650175}
+  - {fileID: -7250672686379327876}
+  - {fileID: -1828908665165339802}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc65ec7c51504536bd51a47e3cb8fb6a, type: 3}
   m_Name: ARBoundingBoxFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Bounding Boxes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-bounding-boxes
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fd4a84074c74cb183c18e803dabb9e, type: 3}
   m_Name: ARAnchorFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Anchors'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-anchor
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f61610f95074135a9fd060fc37c4788, type: 3}
   m_Name: BoundaryVisibilityFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Boundary Visibility'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-boundary-visibility
@@ -788,7 +788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfde4033cbc8045a69c465b226fd4284, type: 3}
   m_Name: DisplayUtilitiesFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Display Utilities'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.meta-display-utilities
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e567abbf4d944210acb6315178bb015, type: 3}
   m_Name: ARCameraFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Camera (Passthrough)'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-camera
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec7ac3a07bc448fbb43bbcff14d5b12, type: 3}
   m_Name: ARRaycastFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Raycasts'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-raycast
@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9b8cd1fcf8499eb57f194da9698fcd, type: 3}
   m_Name: AROcclusionFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Occlusion'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-occlusion
@@ -1174,7 +1174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00bb9c182ae8406ca03773119fa07ea, type: 3}
   m_Name: ARPlaneFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Planes'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-plane
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076937beb8763d94790d2e9cc1248ac8, type: 3}
   m_Name: ARSessionFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: 'Meta Quest: Session'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-session
