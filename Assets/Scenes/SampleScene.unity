@@ -183,13 +183,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400770031}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.8365, y: 2.6606855, z: -9.09103}
+  m_LocalRotation: {x: -0, y: 0.6538226, z: -0, w: 0.7566479}
+  m_LocalPosition: {x: -6.0921297, y: 1.77, z: -6.1480656}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 380581233}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 81.661, z: 0}
 --- !u!102 &400770033
 TextMesh:
   serializedVersion: 3
@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 674534791}
   - component: {fileID: 674534790}
   m_Layer: 0
-  m_Name: New Text
+  m_Name: CustomizeStarText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,7 +530,7 @@ Transform:
   m_GameObject: {fileID: 674534788}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.096500635, y: 2.6606855, z: -7.3510303}
+  m_LocalPosition: {x: -21.29, y: 4.31, z: -8.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1137,7 +1137,7 @@ Transform:
   m_GameObject: {fileID: 1907400406}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9234993, y: -1.7993144, z: -6.8510303}
+  m_LocalPosition: {x: -18.27, y: -0.15, z: -7.91}
   m_LocalScale: {x: 3.0114, y: 1, z: 3.4366}
   m_ConstrainProportionsScale: 0
   m_Children: []
