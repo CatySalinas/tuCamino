@@ -15,19 +15,19 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.29890773, g: 0.20991638, b: 0.68465036, a: 1}
-  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientEquatorColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 0ed239b0deaaa5540ad0d81e5f5265f2, type: 2}
-  m_HaloStrength: 0.232
+  m_HaloStrength: 0.203
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -94,7 +94,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 157333e35e10d434ea93589e2bd80b0c, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -683,7 +683,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!154 &614652465
 TerrainCollider:
@@ -715,34 +715,34 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 606d09b504c66964eb001cddb2d1b675, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 764
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 274
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 20.7
+  m_SplatMapDistance: 1029
   m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
+  m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 0
   m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
   m_ReceiveGI: 1
   m_ScaleInLightmap: 0.0256
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightmapParameters: {fileID: 0}
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
-  m_EnableHeightmapRayTracing: 1
+  m_EnableHeightmapRayTracing: 0
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
 --- !u!4 &614652467
@@ -1860,6 +1860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RainGenerator
       objectReference: {fileID: 0}
+    - target: {fileID: 2477210410248866409, guid: 23aa4ccf72f424a42a4bf0eec1d05b8e, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2651050584199506464, guid: 23aa4ccf72f424a42a4bf0eec1d05b8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.19999817
@@ -1927,31 +1931,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8572431
+      value: 0.5396473
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.008952299
+      value: -0.6774955
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.21991068
+      value: 0.2387256
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.46550333
+      value: 0.4390793
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 10.917
+      value: -70.196
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.108
+      value: -95.416
       objectReference: {fileID: 0}
     - target: {fileID: 656973129955057565, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 54.768
+      value: 153.642
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_ColorTemperature
+      value: 6608
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027078166731775848, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8405367404419845706, guid: eaa193ad4ffa54f42a01aae2e0b0a055, type: 3}
       propertyPath: m_Name
