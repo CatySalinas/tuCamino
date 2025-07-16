@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -10,14 +11,11 @@ public class TrunkAnimator : MonoBehaviour
 
     public void Press()
     {
-        string ComponentName = GetComponent<Component>().name;
-        if (animator == null){
-            animator = GetComponent<Animator>();
-        }
-
-        Debug.Log("Pressing Button " + ComponentName);
-
+        //Gets the Component animator
+        animator = GetComponent<Animator>();
         animator.GetComponent<Animator>();
+
+        //Sets a trigger in animator to play animation.
         animator.SetTrigger("Pressed");
 
     }
