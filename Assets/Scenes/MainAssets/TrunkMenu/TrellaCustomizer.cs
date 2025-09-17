@@ -5,6 +5,8 @@ public class TrellaCustomizer : MonoBehaviour{
 
     //Field in inspector to drag dsired body parth to change
     public Renderer targetBodyPart;
+    public Renderer targetMiniBodyPart;
+
 
     //Colors
     public string[] BodyColorHex = new string[] { "#67CFFF", "#9A8FFF", "#FF8541", "#FFF054" };
@@ -40,6 +42,7 @@ public class TrellaCustomizer : MonoBehaviour{
 
         //Sets the desire color
         targetBodyPart.material.color = colorToApply;
+        targetMiniBodyPart.material.color=colorToApply;
 
     }
 }
