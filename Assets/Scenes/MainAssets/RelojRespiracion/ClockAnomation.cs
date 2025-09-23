@@ -1,9 +1,19 @@
+using System;
 using UnityEngine;
 
 public class ClockAnimation : MonoBehaviour
 {
-    public AudioSource audioPlayer;
+    public AudioSource ticAudio;
+    public AudioSource inAudio;
+    public AudioSource holdAudio;
+    public AudioSource outAudio;
+
     public Animation anim;
+
+    public GameObject Origin;
+
+    public int Vueltas = 3;
+    int vueltasDadas = 0;
 
     public void startCycle()
     {
@@ -12,10 +22,48 @@ public class ClockAnimation : MonoBehaviour
 
     public void playTic()
     {
-        if (audioPlayer != null)
+        if (ticAudio != null)
         {
-            audioPlayer.pitch = Random.Range(0.95f, 1.095f);
-            audioPlayer.Play();
+            ticAudio.Play();
         }
+    }
+
+    public void playIn()
+    {
+        if (inAudio != null)
+        {
+            inAudio.Play();
+        }
+    }
+    public void playHold()
+    {
+        if (holdAudio != null)
+        {
+            holdAudio.Play();
+        }
+    }
+
+    public void playOut()
+    {
+        if (outAudio != null)
+        {
+            outAudio.Play();
+        }
+    }
+    public void completeCycle()
+    {
+        vueltasDadas++;
+        if (vueltasDadas >= Vueltas)
+        {
+            Origin.GetComponent<ClockController>().stopAll();
+        }
+        else
+        {
+            return;
+        }
+    }
+    public void stop()
+    {
+        anim.Stop();
     }
 }
